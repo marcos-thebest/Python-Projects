@@ -1,3 +1,4 @@
+# SmartAssist.py
 import os
 def confirmName(name):
     #Function to confirm the user's name
@@ -30,30 +31,34 @@ def english():
 
     #User choice / Choice validation
     first_option = int(input('\nChoose an option (1-3): '))
+    #Validation of the choice
     while first_option < 1 or first_option > 3:
         print('Invalid option! Please try again.')
         first_option = int(input('\nChoose an option (1-3): '))
-
+    #Execution of the chosen options
     if first_option == 1:
         print('\nProfessional Support selected!\nWhat is your technology question in a professional context?')
         print('\n1. How can I improve my profile for job openings?')
         print('2. Essential tools for DevOps.')
         
         career_choice = int(input('\nSelect an option (1-2): '))
+        #Validation of the choice
         while career_choice < 1 or career_choice > 2:
             print('Invalid option! Please try again.')
             career_choice = int(input('Select an option (1-2): '))
-
+        #Execution of the chosen options
         if career_choice == 1:
             print('First, I need you to choose a context so that I can help you better...')
             print('\n1. Professional (career, tools, best practices)')
             print('2. Academic (studies, languages, concepts)')
 
             context = int(input('\nSelect an option (1-2): '))
+            #Validation of the choice
             while context < 1 or context > 2:
                 print('Invalid option! Please try again.')
                 context = int(input('Select an option (1-2): '))
             
+            #Execution of the chosen options
             if context == 1:
                 print('To improve your PROFESSIONAL profile, I suggest these three approaches:')
                 print('\n1. Portfolio on GitHub: upload 2-3 projects with detailed README, documentation, and best practices.')
@@ -61,16 +66,18 @@ def english():
                 print('3. Networking and presence: participating in tech communities, events, and contributing to open source projects.')
 
                 paths_option = int(input('\nChoose a path (1-3): '))
+                #Validation of the choice
                 while paths_option < 1 or paths_option > 3:
                     print('Invalid option! Please try again.')
                     paths_option = int(input('Choose a path (1-3): '))
+                #Execution of the chosen options
                 if paths_option == 1:
                     print('Understood. I will record this as your final decision. Thank you for using 🅢 🅜 🅐 🅡 🅣 🅐 🅢 🅢 🅘 🅢 🅣 !')
                 elif paths_option == 2:
                     print('Understood. I will record this as your final decision. Thank you for using 🅢 🅜 🅐 🅡 🅣 🅐 🅢 🅢 🅘 🅢 🅣 !')
                 else:
                     print('Understood. I will record this as your final decision. Thank you for using 🅢 🅜 🅐 🅡 🅣 🅐 🅢 🅢 🅘 🅢 🅣 !')
-
+        #Execution of the chosen options
         else:
             print('Essential tools for the PROFESSIONAL context:')
             print('\n1. Versioning and CI/CD: Git, GitHub/GitLab, GitHub Actions, or Jenkins for automation.')
@@ -78,27 +85,29 @@ def english():
             print('3. Monitoring and Logs: Prometheus, Grafana, ELK Stack for application observability.')
 
             options_tools = int(input('\nSelect a tool (1-3): '))
+            #Validation of the choice
             while options_tools < 1 or options_tools > 3:
                     print('Invalid option! Please try again.')
                     options_tools = int(input('Select a tool (1-3): '))
-
+            #Execution of the chosen options
             if options_tools == 1:
                 print('Understood. I will record this as your final decision. Thank you for using 🅢 🅜 🅐 🅡 🅣 🅐 🅢 🅢 🅘 🅢 🅣 !')
             elif options_tools == 2:
                 print('Understood. I will record this as your final decision. Thank you for using 🅢 🅜 🅐 🅡 🅣 🅐 🅢 🅢 🅘 🅢 🅣 !')
             else:
                 print('Understood. I will record this as your final decision. Thank you for using 🅢 🅜 🅐 🅡 🅣 🅐 🅢 🅢 🅘 🅢 🅣 !')
-
+    #Execution of the chosen options
     elif first_option == 2:
         print('\nAcademic Support selected!\nWhat is your question about technology in an academic context?')
         print('\n1. Where do I start with Java?')
         print('2. How should I organize my SQL studies?')
 
         academic_choice = int(input('\nSelect an option (1-2): '))
+        #Validation of the choice
         while academic_choice < 1 or academic_choice > 2:
             print('Invalid option! Please try again.')
             academic_choice = int(input('Select an option (1-2): '))
-
+        #Execution of the chosen options
         if academic_choice == 1:
             print('Here are three possible answers to your question in an ACADEMIC context (you choose):')
             print('\n1. Fundamentals: review basic concepts with short, practical exercises.')
@@ -106,10 +115,11 @@ def english():
             print('3. Routine: create a study plan of 30 minutes/day + flashcards of concepts.')
 
             academic_pathways_option = int(input('\nChoose a path (1-3): '))
+            #Validation of the choice
             while academic_pathways_option < 1 or academic_pathways_option > 3:
                 print('Invalid option! Please try again.')
                 academic_pathways_option = int(input('Choose a path (1-3): '))
-
+            #Execution of the chosen options
             if academic_pathways_option == 1:
                 print('Understood. I will record this as your final decision. Thank you for using 🅢 🅜 🅐 🅡 🅣 🅐 🅢 🅢 🅘 🅢 🅣 !')
             elif academic_pathways_option == 2:
@@ -123,9 +133,11 @@ def english():
             print('3. SQL for developers: focus on modeling, code integration, and performance optimization.')
 
             sql_paths_options = int(input('\nChoose a path (1-3): '))
+            #Validation of the choice
             while sql_paths_options < 1 or sql_paths_options > 3:
                     print('Invalid option! Please try again.')
                     sql_paths_options = int(input('Choose a path (1-3): '))
+            #Execution of the chosen options
             if sql_paths_options == 1:
                 print('Understood. I will record this as your final decision. Thank you for using 🅢 🅜 🅐 🅡 🅣 🅐 🅢 🅢 🅘 🅢 🅣 !')
             elif sql_paths_options == 2:
@@ -172,26 +184,31 @@ def portuguese():
         print('Opção inválida! Tente novamente.')
         primeira_opcao = int(input('Escolha uma opção (1-3): '))
 
+    #Execução das opções escolhidas
     if primeira_opcao == 1:
         print('\nSuporte Profissional selecionado!\nQual é a sua dúvida de tecnologia dentro do contexto profissional?')
         print('\n1. Como melhorar meu perfil para vagas?')
         print('2. Ferramentas essenciais para DevOps.')
         
         escolha_profissional = int(input('\nEscolha uma opção (1-2): '))
+        #Validação da escolha
         while escolha_profissional < 1 or escolha_profissional > 2:
             print('Opção inválida! Tente novamente.')
             escolha_profissional = int(input('Escolha uma opção (1-2): '))
 
+        #Execução das opções escolhidas
         if escolha_profissional == 1:
             print('Primeiro, preciso que você escolha um contexto para que eu possa te ajudar melhor...')
             print('\n1. Profissional (carreira, ferramentas, boas práticas)')
             print('2. Acadêmico (estudos, linguagens, conceitos)')
 
             contexto = int(input('\nEscolha uma opção (1-2): '))
+            #Validação da escolha
             while contexto < 1 or contexto > 2:
                 print('Opção inválida! Tente novamente.')
                 contexto = int(input('Escolha uma opção (1-2): '))
             
+            #Execução das opções escolhidas
             if contexto == 1:
                 print('Para melhorar seu perfil PROFISSIONAL, sugiro estes 3 caminhos:')
                 print('\n1. Portfolio no GitHub: subir 2-3 projetos com README detalhado, documentação e boas práticas..')
@@ -199,16 +216,18 @@ def portuguese():
                 print('3. Networking e presença: participar de comunidades tech, eventos e contribuir em projetos open source.')
 
                 opcao_caminhos = int(input('\nEscolha uma caminho (1-3): '))
+                #Validação da escolha
                 while opcao_caminhos < 1 or opcao_caminhos > 3:
                     print('Opção inválida! Tente novamente.')
                     opcao_caminhos = int(input('Escolha uma caminho (1-3): '))
+                #Execução das opções escolhidas
                 if opcao_caminhos == 1:
                     print('Entendi. Vou registrar como sua decisão final. Obrigado por usar o 🅢 🅜 🅐 🅡 🅣 🅐 🅢 🅢 🅘 🅢 🅣 !')
                 elif contexto == 2:
                     print('Entendi. Vou registrar como sua decisão final. Obrigado por usar o 🅢 🅜 🅐 🅡 🅣 🅐 🅢 🅢 🅘 🅢 🅣 !')
                 else:
                     print('Entendi. Vou registrar como sua decisão final. Obrigado por usar o 🅢 🅜 🅐 🅡 🅣 🅐 🅢 🅢 🅘 🅢 🅣 !')
-
+        #Execução das opções escolhidas
         else:
             print('Ferramentas essenciais para o contexto PROFISSIONAL:')
             print('\n1. Versionamento e CI/CD: Git, GitHub/GitLab, GitHub Actions ou Jenkins para automação..')
@@ -216,10 +235,11 @@ def portuguese():
             print('3. Monitoramento e Logs: Prometheus, Grafana, ELK Stack para observabilidade de aplicações.')
 
             opcoes_ferramentas = int(input('\nEscolha uma ferramenta (1-3): '))
+            #Validação da escolha
             while opcoes_ferramentas < 1 or opcoes_ferramentas > 3:
                     print('Opção inválida! Tente novamente.')
                     opcoes_ferramentas = int(input('Escolha uma ferramenta (1-3): '))
-
+            #Execução das opções escolhidas
             if opcoes_ferramentas == 1:
                 print('Entendi. Vou registrar como sua decisão final. Obrigado por usar o 🅢 🅜 🅐 🅡 🅣 🅐 🅢 🅢 🅘 🅢 🅣 !')
             elif opcoes_ferramentas == 2:
@@ -308,29 +328,32 @@ def spanish():
     #Elección del usuario / Validación de la elección
     primera_opcion = int(input('\nElija una opción (1-3): '))
     while primera_opcion < 1 or primera_opcion > 3:
+        #Validación de la elección
         print('¡Opción inválida! Inténtelo de nuevo.')
         primera_opcion = int(input('Elija una opción (1-3): '))
-
+    #Ejecución de las opciones elegidas
     if primera_opcion == 1:
         print('\n¡Soporte profesional seleccionado!\n¿Cuál es su duda tecnológica en el contexto profesional?')
         print('\n1. ¿Cómo puedo mejorar mi perfil para las ofertas de trabajo?')
         print('2. Herramientas esenciales para DevOps.')
         
         eleccion_profesional = int(input('\nElija una opción (1-2): '))
+        #Validación de la elección
         while eleccion_profesional < 1 or eleccion_profesional > 2:
             print('Opción no válida. Inténtelo de nuevo.')
             eleccion_profesional = int(input('Elija una opción (1-2): '))
-
+        #Ejecución de las opciones elegidas
         if eleccion_profesional == 1:
             print('Primero, necesito que elijas un contexto para poder ayudarte mejor...')
             print('\n1. Profesional (carrera, herramientas, buenas prácticas)')
             print('2. Académico (estudios, lenguages, conceptos)')
 
             contextoSpa = int(input('\nElija una opción (1-2): '))
+            #Validación de la elección
             while contextoSpa < 1 or contextoSpa > 2:
                 print('Opción no válida. Inténtelo de nuevo.')
                 contextoSpa = int(input('Elija una opción (1-2): '))
-            
+            #Ejecución de las opciones elegidas
             if contextoSpa == 1:
                 print('Para mejorar su perfil PROFESIONAL, le sugiero estas tres opciones:')
                 print('\n1. Portafolio en GitHub: subir 2-3 proyectos con README detallado, documentación y buenas prácticas...')
@@ -338,9 +361,11 @@ def spanish():
                 print('3. Redes y presencia: participar en comunidades tecnológicas, eventos y contribuir en proyectos de código abierto.')
 
                 opciones_caminos = int(input('\nElige una opción (1-3): '))
+                #Validación de la elección
                 while opciones_caminos < 1 or opciones_caminos > 3:
                     print('Opción no válida. Inténtelo de nuevo.')
                     opciones_caminos = int(input('Elige una opción (1-3): '))
+                #Ejecución de las opciones elegidas
                 if opciones_caminos == 1:
                     print('Entendido. Lo registraré como su decisión final. ¡Gracias por utilizar 🅢 🅜 🅐 🅡 🅣 🅐 🅢 🅢 🅘 🅢 🅣 !')
                 elif contextoSpa == 2:
@@ -355,10 +380,11 @@ def spanish():
             print('3. Monitoreo y registros: Prometheus, Grafana, ELK Stack para la observabilidad de aplicaciones.')
 
             opciones_herramientas = int(input('\nElija una herramienta (1-3): '))
+            #Validación de la elección
             while opciones_herramientas < 1 or opciones_herramientas > 3:
                     print('Opción no válida. Inténtelo de nuevo.')
                     opciones_herramientas = int(input('Elija una herramienta (1-3): '))
-
+            #Ejecución de las opciones elegidas
             if opciones_herramientas == 1:
                 print('Entendido. Lo registraré como su decisión final. ¡Gracias por utilizar 🅢 🅜 🅐 🅡 🅣 🅐 🅢 🅢 🅘 🅢 🅣 !')
             elif opciones_herramientas == 2:
@@ -416,10 +442,15 @@ def spanish():
 #Start of the program
 print('''\nWelcome to 🅢 🅜 🅐 🅡 🅣 🅐 🅢 🅢 🅘 🅢 🅣 !''')
 
+#Language selection
 print('\n1. 🇪​​​​​🇳​​​​​🇬​​​​​🇱​​​​​🇮​​​​​🇸​​​​​🇭​​​​​ - 🇪​​​​​🇳​​​​​')
 print('2. 🇵​​​​​🇴​​​​​🇷​​​​​🇹​​​​​🇺​​​​​🇬​​​​​🇺​​​​​🇪​​​​​🇸​​​​​🇪​​​​​ - 🇵​​​​​🇹​​​​​')
 print('3. 🇸​​​​​🇵​​​​​🇦​​​​​🇳​​​​​🇮​​​​​🇸​​​​​🇭​​​​​ - 🇪​​​​​🇸​​​​​')
+
+#User language choice
 choose_language = int(input('\nSelect your preferred language: '))
+
+#Language execution based on user choice
 if choose_language == 1:
     english()
 elif choose_language == 2:
