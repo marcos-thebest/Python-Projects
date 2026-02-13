@@ -1,0 +1,21 @@
+# 🐍 Python-Projects
+
+Repositório dedicado a projetos desenvolvidos em Python com foco em aprendizado, prática e aprimoramento de habilidades em programação.
+
+## 📚 Sobre
+
+Este repositório contém uma coleção de projetos em Python, desde scripts simples até aplicações mais completas.  
+O objetivo é praticar conceitos fundamentais, explorar bibliotecas e evoluir constantemente como desenvolvedor.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- Python 3.x
+- Bibliotecas padrão do Python
+- (Adicione aqui bibliotecas como: Pandas, Flask, Django, Tkinter, etc., se usar)
+
+---
+
+## 📂 Estrutura do Repositório
+
