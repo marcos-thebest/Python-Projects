@@ -1,31 +1,57 @@
 # 🐍 Python-Projects
 
-Repositório dedicado a projetos desenvolvidos em Python com foco em aprendizado, prática e aprimoramento de habilidades em programação.
+Este repositório reúne uma coleção de **scripts e pequenos programas em Python** desenvolvidos para prática e aprendizado da linguagem.
 
-## 📚 Sobre
-
-Este repositório contém uma coleção de projetos em Python, desde scripts simples até aplicações mais completas.  
-O objetivo é praticar conceitos fundamentais, explorar bibliotecas e evoluir constantemente como desenvolvedor.
+Ele contém soluções simples e práticas que demonstram lógica de programação, interação com o usuário e manipulação de dados básicos.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 📌 Conteúdo do Repositório
 
-- Python 
-- (Adicione aqui bibliotecas como: Pandas, Flask, Django, Tkinter, etc., se usar)
+### 📄 Scripts Disponíveis
+
+| Arquivo | Descrição |
+|---------|-----------|
+| `SmartAssist.py` | Assistente simples para tarefas interativas (descrição detalhada abaixo). |
+| `calculator.py` | Calculadora básica que executa operações matemáticas. |
+| `fixa_cadastral.py` | Script relacionado a cadastro (pode ser para fixar dados ou lógica de cadastro). |
+| `velocidade_media.py` | Calcula a velocidade média com base na distância e tempo informados. |
+| `welcome.py` | Exemplo de programa de boas-vindas ou interação inicial com o usuário. |
+
+Os scripts estão escritos em Python puro, sem dependências externas.
 
 ---
 
-## 📂 Estrutura do Repositório
+## 🧠 Descrição dos Scripts
 
-Cada pasta representa um projeto independente.
+### 🧩 SmartAssist
+
+Um programa que funciona como um **assistente interativo simples**. Pode pedir informações ao usuário e oferecer respostas ou orientações com base em perguntas pré-programadas.
+
+### ➕ calculator.py
+
+Uma **calculadora básica em Python** que executa as operações:
+
+- Adição
+- Subtração
+- Multiplicação
+- Divisão
+
+O usuário é solicitado a inserir números e escolher a operação desejada.
 
 ---
 
-## ▶️ Como Executar os Projetos
+### 📋 fixa_cadastral.py
 
-1. Clone o repositório:
+Um arquivo voltado a **lógica de cadastro ou armazenamento simples de dados**, que pode ser usado como base para sistemas maiores no futuro.
+
+---
+
+### 🏎️ velocidade_media.py
+
+Este script calcula a **velocidade média** de um veículo ou objeto com base na distância percorrida e no tempo gasto.
+
+Exemplo de uso:
 
 ```bash
-git clone https://github.com/seu-usuario/Python-Projects.git
-
+python velocidade_media.py
