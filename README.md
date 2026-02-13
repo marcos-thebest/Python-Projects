@@ -11,11 +11,20 @@ O objetivo é praticar conceitos fundamentais, explorar bibliotecas e evoluir co
 
 ## 🚀 Tecnologias Utilizadas
 
-- Python 3.x
-- Bibliotecas padrão do Python
+- Python 
 - (Adicione aqui bibliotecas como: Pandas, Flask, Django, Tkinter, etc., se usar)
 
 ---
 
 ## 📂 Estrutura do Repositório
 
+Cada pasta representa um projeto independente.
+
+---
+
+## ▶️ Como Executar os Projetos
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/Python-Projects.git
